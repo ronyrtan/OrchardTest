@@ -13,15 +13,18 @@
 </head>
 <body>
 
-  <div class="AYBN container">
-    <div class="AYBNcolumn singleImage">
-      <img src="images/3-ImageText/Image-01.jpg" alt="">
+  <div class="aYBN container">
+
+    <div class="aYBNcolumn singleImage">
+      <img src="images/3-ImageText/Image-01.jpg" id ="img01" alt="Image-01" class="img" onclick="openModal(img01)">
     </div>
-    <div class="AYBNcolumn dualImage">
-      <img src="images/3-ImageText/Image-02.jpg" alt="">
-      <img src="images/3-ImageText/Image-03.jpg" alt="">
+
+    <div class="aYBNcolumn dualImage">
+      <img src="images/3-ImageText/Image-02.jpg" id ="img02" alt="Image-02" class="img" onclick="openModal(img02)">
+      <img src="images/3-ImageText/Image-03.jpg" id ="img03" alt="Image-03" class="img" onclick="openModal(img03)">
     </div>
-    <div class="AYBNcolumn">
+
+    <div class="aYBNcolumn">
       <h4>ANSWER YOUR BODY'S NEEDS</h4>
       <p>
         The way ingredients are sourced affects the way we nourish our bodies. Author Mark Schatzer believes our body naturally devolops an appetite for the foods and nutrients it needs to be healthy, but that artificial flavourings are getting in the way. This can be reversed by focusing on high-quality ingredients and being mindful as your appetite guides you to consume according to your body's needs.
@@ -30,11 +33,17 @@
       <p>
         Sourcing local or organic food is a good way to start being more mindful about what you're cooking and eating.
       </p>
-
     </div>
+
   </div>
 
-  <div class="ATL container">
+  <!-- Modal -->
+    <div class="modal" id="imgModal">
+      <div id="close" >&times;</div>
+      <img src="" alt="" id="modalContent">
+    </div>
+
+  <div class="aTL container">
 
   </div>
 
