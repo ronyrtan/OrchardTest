@@ -1,7 +1,22 @@
 body {
-  background: #000;
+  background: #0f1414;
   color: #fff;
   padding: 186px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.5;
+  margin: 0;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease all;
+  margin-bottom: 0;
 }
 
 .container {
@@ -11,6 +26,14 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+
+/* AYBN */
+
+
+.aYBN {
+  padding-bottom: 225px;
 }
 
 .aYBNcolumn {
@@ -29,11 +52,47 @@ body {
   padding: 0 24px;
 }
 
+.columnTwo {
+  padding: 0 24px;
+}
+
+.img {
+  transition: 0.3s ease all;
+}
+
+.aYBN p {
+  margin: 30px 0 35px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 100;
+}
+
+.aYBN h5 {
+  color: #CF1430;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
 .img:hover {
   cursor: pointer;
+  opacity: 0.8;
+}
+
+#whiteLine {
+  display: block;
+  padding-top: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+#note {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 /* Modal */
+
 
 .modal {
   display: none;
@@ -59,9 +118,73 @@ body {
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
-  transition: 0.3s;
+  transition: 0.3s ease all;
 }
 
 #close:hover {
   cursor: pointer;
+  opacity: 0.8;
+}
+
+
+/* ATL */
+
+
+.aTLcolumn {
+  width: 384px;
+}
+
+.aTLHeading {
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 0.81px;
+  line-height: 57px;
+  margin: 0 0 60px 0;
+}
+
+.aTLcolumn img{
+  border-bottom: 2px solid #d01430;
+  box-sizing: border-box;
+  transition: 0.3s ease all;
+}
+
+.aTL p {
+    font-weight: 300;
+    color: #C2C2C2;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.aTL a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.aTL p {
+  margin-bottom: 30px;
+}
+
+.aTL span {
+  border-bottom: 1px solid #d01430;
+  padding-top: 10px;
+  width: 0px;
+  display: block;
+  transition: 0.3s ease all;
+}
+
+.aTLcolumn a:hover span.redLine {
+  width: 100px !important;
+}
+
+.aTLcolumn:hover {
+  cursor: pointer;
+}
+
+.aTLcolumn:hover h5 {
+  color: #d01430;
+}
+
+.aTLcolumn:hover img {
+  border-bottom: 4px solid #d01430;
 }
